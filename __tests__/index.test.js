@@ -23,6 +23,7 @@ describe(`Services`, () => {
       `Web server started - status`,
       done => {
         axios.get(`http://localhost:${PORT}/?env=test`).then(res => {
+					// response snapshots are a great way to give a sample for those exploring the project
           expect(res).toMatchSnapshot()
           done()
         })
