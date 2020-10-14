@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Services Web server started Web server started - status 1`] = `
+Object {
+  "config": Object {
+    "adapter": [Function],
+    "data": undefined,
+    "headers": Object {
+      "Accept": "application/json, text/plain, */*",
+    },
+    "maxBodyLength": -1,
+    "maxContentLength": -1,
+    "method": "get",
+    "timeout": 0,
+    "transformRequest": Array [
+      [Function],
+    ],
+    "transformResponse": Array [
+      [Function],
+    ],
+    "url": "http://localhost:8080/?env=test",
+    "validateStatus": [Function],
+    "xsrfCookieName": "XSRF-TOKEN",
+    "xsrfHeaderName": "X-XSRF-TOKEN",
+  },
+  "data": Object {
+    "env": "test",
+  },
+  "headers": Object {
+    "content-type": "application/json; charset=utf-8",
+  },
+  "request": XMLHttpRequest {},
+  "status": 200,
+  "statusText": "OK",
+}
+`;

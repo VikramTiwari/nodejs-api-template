@@ -2,14 +2,30 @@
   "name": "nodejs-api-template",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src",
+    "test": "jest --collectCoverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "semi": false,
+    "trailingComma": "all",
+    "arrowParens": "avoid"
+  },
+  "devDependencies": {
+    "axios": "^0.20.0",
+    "jest": "^26.5.3",
+    "prettier": "^2.1.2"
   }
 }
